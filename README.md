@@ -21,6 +21,9 @@ Clone o projeto
 
 ## Estrutura do projeto
 
+
+```plaintext
+
 /api_clientes_java/
 ├── .mvn/
 │   └── wrapper/
@@ -49,6 +52,8 @@ Clone o projeto
 ├── mvnw
 ├── mvnw.cmd
 └── pom.xml
+
+```
 
 - src/main/java/com/seu_usuario/api_clientes/: Contém o código-fonte principal do projeto.
 
