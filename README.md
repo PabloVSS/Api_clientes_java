@@ -21,12 +21,12 @@ Clone o projeto
 É necessario ter o JDK instalado, foi utilizado o Maven para gerenciar os pacotes.
 ## Stack utilizada
 
-**Back-end:** Java, Spring Data JPA, Spring Framework, Postgresql.
+## Tecnologias
 
-
-
-## 🛠 Habilidades
-Java, Api Rest, Banco de Dados, Postgresql...
+- Java
+- Spring Data JPA 
+- Spring Framework 
+- Postgresql.
 
 
 ## Aprendizados
