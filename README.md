@@ -1,8 +1,7 @@
 
 # Cadastro Cliente
 
-Programa feito como forma de estudo, é um cadastro de alunos Simples feito na linguagem Java
-
+Este projeto foi desenvolvido como uma forma de estudo e prática, focando no cadastro de alunos utilizando a linguagem Java. O objetivo principal é aperfeiçoar os conhecimentos adquiridos e aplicar conceitos de programação de maneira prática e eficiente. A aplicação permite a criação, leitura, atualização e exclusão de registros de alunos, proporcionando uma experiência completa de gerenciamento de dados.
 
 
 ## Autores
@@ -19,7 +18,49 @@ Clone o projeto
 ```
 
 É necessario ter o JDK instalado, foi utilizado o Maven para gerenciar os pacotes.
-## Stack utilizada
+
+## Estrutura do projeto
+
+/api_clientes_java/
+├── .mvn/
+│   └── wrapper/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── seu_usuario/
+│   │   │           └── api_clientes/
+│   │   │               ├── controller/
+│   │   │               ├── model/
+│   │   │               ├── repository/
+│   │   │               └── service/
+│   │   └── resources/
+│   │       ├── static/
+│   │       ├── templates/
+│   │       └── application.yml
+│   ├── test/
+│       └── java/
+│           └── com/
+│               └── seu_usuario/
+│                   └── api_clientes/
+├── .gitattributes
+├── .gitignore
+├── README.md
+├── mvnw
+├── mvnw.cmd
+└── pom.xml
+
+- src/main/java/com/seu_usuario/api_clientes/: Contém o código-fonte principal do projeto.
+
+- controller/: Contém os controladores da aplicação.
+
+- model/: Contém as classes de modelo (entidades).
+
+- repository/: Contém as interfaces de repositório para acesso ao banco de dados.
+
+- service/: Contém as classes de serviço que implementam a lógica de negócios.
+
+- src/main/resources/application.yml: éonde tem os arquivos de configurações
 
 ## Tecnologias
 
@@ -28,12 +69,6 @@ Clone o projeto
 - Spring Framework 
 - Postgresql.
 
-
-## Aprendizados
-
-O que você aprendeu construindo esse projeto? Quais desafios você enfrentou e como você superou-os?
-
-Absorve melhor como utilizar o JPA, como dividir as pastas do projeto para ficar mais coeso e facilitar o entendimento, Os desafios foi superados com estudo e testes.
 ## Documentação da API (Obs: onde tem a {id} coloca o id do cliente, para excluir, atualizar ou pesquisar).
 
 #### Retorna todos os Clientes:
